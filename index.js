@@ -11,7 +11,6 @@ const client = new Client({
         GatewayIntentBits.GuildMessages
     ]
 });
-var listener = app.listen(process.env.PORT || 2000, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });
 app.listen(() => console.log("I'm Ready To Work..! 24H"));
